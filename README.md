@@ -1,0 +1,2 @@
+# WebsiteFromScratch
+School solo project 
