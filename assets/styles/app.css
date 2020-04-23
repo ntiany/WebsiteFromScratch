@@ -19,23 +19,23 @@
 }
 
 .topnav a.active {
-  background-color: #f1efef;
+  background-color: #f8f6f6;
   color: black;
 }
 
   .insidenav {
-    width: 60rem;
+    width: 50rem;
     margin: auto;
   }
 
   body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #cfcfcf;
+    background-color: #d7d6de;
   }
 
   .page {
-    background-color: #f1efef;
-    width: 60rem;
+    background-color: #f8f6f6;
+    width: 50rem;
     min-height: 50rem;
     margin-left: auto;
     margin-right: auto;
@@ -44,17 +44,57 @@
   }
 
   .content {
-    padding-top: 20px;
-    text-align: center;
+    padding: 50px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  h1 {
+    margin: 0px;
+    color: #314241;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+.header {
+  border-bottom: #314241 2px solid;
+  padding-top: 15px;
+}
+
+img {
+    width: 44em;
+    padding-top: 5px;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: lighter;
   }
 
   p {
-    margin: 0px;
-    color: #4b706c;
-    font-size: 30px;
+    line-height: 1.7rem;
   }
 
-img {
-    width: 300px;
-    height: auto;
+  .author {
+    background-color: #efeff1;
+    padding: 20px;
+    overflow: hidden;
+  }
+
+  .author img {
+    width: 80px;
+    padding-left: 40px;
+    padding-right: 30px;
+    float: left;
+  }
+
+  .author h8 {
+    line-height: 1.7rem;
+  }
+
+  .author h1 {
+    color: #314241;
+    font-size: 20px;
+    padding-top: 10px;
   }
