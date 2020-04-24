@@ -36,7 +36,6 @@
   .page {
     background-color: #f8f6f6;
     width: 50rem;
-    min-height: 50rem;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
@@ -97,4 +96,39 @@ img {
     color: #314241;
     font-size: 20px;
     padding-top: 10px;
+  }
+
+  .contact {
+    font-size: 17px;
+  }
+
+  .contact label {
+    margin: 10px;
+  }
+
+  .contact input {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 95%;
+    padding: 12px;
+    border-radius: 6px;
+    background-color: rgb(233, 233, 233);
+    border: 1px solid #ccc;
+    text-align: start;
+  }
+
+  .contact button {
+    background-color:#1a1e1d;
+    color: #7fccc4;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #1a1e1d;
+  }
+
+  .contact button:hover {
+    background-color: #7fccc4;
+    color: #1a1e1d;
+
   }
