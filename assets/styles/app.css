@@ -115,7 +115,18 @@ img {
     border-radius: 6px;
     background-color: rgb(233, 233, 233);
     border: 1px solid #ccc;
-    text-align: start;
+  }
+
+  .contact textarea {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 95%;
+    padding: 12px;
+    border-radius: 6px;
+    background-color: rgb(233, 233, 233);
+    border: 1px solid #ccc;
+    resize: none;
   }
 
   .contact button {
