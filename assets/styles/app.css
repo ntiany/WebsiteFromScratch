@@ -110,7 +110,7 @@ img {
     font-size: 15px;
     margin-top: 10px;
     margin-bottom: 15px;
-    width: 95%;
+    width: 96%;
     padding: 12px;
     border-radius: 6px;
     background-color: rgb(233, 233, 233);
@@ -121,7 +121,7 @@ img {
     font-size: 15px;
     margin-top: 10px;
     margin-bottom: 15px;
-    width: 95%;
+    width: 96%;
     padding: 12px;
     border-radius: 6px;
     background-color: rgb(233, 233, 233);
@@ -142,5 +142,31 @@ img {
   .contact button:hover {
     background-color: #7fccc4;
     color: #1a1e1d;
+    border: 1px solid #7fccc4;
 
   }
+
+  .alert {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    position: relative;
+    padding: .5rem 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-size: 12px;
+    margin-bottom: 0.7rem;
+  }
+
+  .confirmation {
+    color: #0c5460;
+    background-color: #d1edf1;
+    border-color: #bee5eb;
+    position: relative;
+    padding: .5rem 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-size: 12px;
+    margin-bottom: 0.7rem;
+  }
+
