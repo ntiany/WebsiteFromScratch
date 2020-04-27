@@ -51,7 +51,7 @@
   h1 {
     margin: 0px;
     color: #314241;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
   }
 
@@ -168,5 +168,21 @@ img {
     border-radius: .25rem;
     font-size: 12px;
     margin-bottom: 0.7rem;
+  }
+  
+  ul {
+    padding-inline-start: 0px;
+    margin-top: 50px;
+  }
+  li {
+    display: block;
+    padding: 20px;
+    border: 1px solid #0c5460;
+    margin: 0px 0px 35px 0px;
+    border-radius: 5px;
+  }
+
+  li:hover {
+    color: #7fccc4;
   }
 
